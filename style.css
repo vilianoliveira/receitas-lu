@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #8C035C;
+    --cor2: #73024B;
+    --cor3: #F266C1;
+    --cor4: #F2F2F2;
+    --cor5: #0D0D0D;
+    
+    --fonte-padrao: 'Bebas Neue', sans-serif;
+    --fonte-decorativa: 'Space Mono', monospace;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+}
+img{
+    max-width: 350px;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+header img{
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin: auto;
+}
+main>a>img{
+    max-width: 350px;
+    max-height: 200px;
+    display: inline;
+    margin: auto;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3));
+}
+main{
+    background-color: var(--cor4);
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+nav{
+    background-color: var(--cor3);
+}
+h1{
+    font-family: var(--fonte-decorativa);
+    font-size: 50px;
+    padding: 20px;
+    background-image: linear-gradient(to right, transparent, var(--cor3), transparent);
+    color: var(--cor1);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+h2{
+    font-family: var(--fonte-decorativa);
+    font-size: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to right, transparent, var(--cor3), transparent);
+    color: var(--cor1);
+}
+header p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-shadow: 5px 5px 5px black;
+}
+nav a{
+    text-align: center;
+    color: white;
+    font-weight: 30px;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: var(--cor2);
+    text-decoration: underline;
+    color: #F266C1;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+nav a:active{
+    color: yellowgreen;
+}
+ul{
+    list-style-position: inside;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+main.lista a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--cor2);
+    padding: 20px;
+    margin: 20px;
+    display: block;
+}
+main.lista a:hover{
+    background-color: var(--cor2);
+    text-decoration: underline;
+    color: #F266C1;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+main.lista a:active{
+    color: yellowgreen;
+}
+h3{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-align: left;
+    border: 10px;
+    text-indent: 20px;
+}
