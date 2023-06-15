@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 :root{
-    --cor1: #8C035C;
-    --cor2: #73024B;
-    --cor3: #F266C1;
+    --cor1: #BF8F93;
+    --cor2: #A66874;
+    --cor3: #D99CA7;
     --cor4: #F2F2F2;
     --cor5: #0D0D0D;
     
@@ -36,7 +36,7 @@ main>a>img{
     margin: auto;
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3));
+    background-image: url(imagens/papel-de-parede-tijolo-rosa.jpg);
 }
 main{
     background-color: var(--cor4);
@@ -54,7 +54,7 @@ h1{
     font-size: 50px;
     padding: 20px;
     background-image: linear-gradient(to right, transparent, var(--cor3), transparent);
-    color: var(--cor1);
+    color: var(--cor5);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
 }
 h2{
@@ -62,18 +62,18 @@ h2{
     font-size: 30px;
     padding: 20px;
     background-image: linear-gradient(to right, transparent, var(--cor3), transparent);
-    color: var(--cor1);
+    color: var(--cor5);
 }
 header p{
     text-align: center;
-    color: white;
+    color: var(--cor5);
     font-size: 30px;
     padding: 10px;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px white;
 }
 nav a{
     text-align: center;
-    color: white;
+    color: var(--cor5);
     font-weight: 30px;
     font-size: 20px;
     padding: 15px;
@@ -121,4 +121,5 @@ h3{
     text-align: left;
     border: 10px;
     text-indent: 20px;
+    color: var(--cor5);
 }
